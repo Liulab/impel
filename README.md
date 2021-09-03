@@ -3,12 +3,16 @@ Integrative Methylation model to Predict recurrence of Early Lung cancer. A mode
 
 
 
+
+#
 ### Data Availability
 
 The data analyzed in this study are available from the National Genomics Data Center (accession numbers: HRA000208).
-   
 
 
+
+
+#
 ### install
 ```bash
 library(devtools)
@@ -16,6 +20,8 @@ install_github("Liulab/impel")
 ```
 
 
+
+#
 ### Quick start
 
 #### meth_model 
@@ -27,6 +33,8 @@ data(methylation_model)
 res = meth_model(methylation.matrix=methylation_matrix,methylation_model=methylation_model)
 ```
 
+
+
 #### exp_model
 
 The expression model constructed by enhacer target to predict the recurrence of early lung cancer
@@ -36,6 +44,8 @@ data(expression_model)
 data(house.keeping.genes)
 res =  exp_model(expression.matrix=expression.matrix,expression_model=expression_model,house.keeping.genes=house.keeping.genes)
 ```
+
+
 
 #### integrative_model
 
@@ -51,3 +61,4 @@ res =  integrative_model(methylation.matrix=methylation_matrix,methylation_model
 expression.matrix=expression.matrix,expression_model=expression_model,
 house.keeping.genes=house.keeping.genes)
 ```
+
