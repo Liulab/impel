@@ -3,20 +3,20 @@ Integrative Methylation model to Predict recurrence of Early Lung cancer. A mode
 
 
 
-## Data Availability
+### Data Availability
 
 The data analyzed in this study are available from the National Genomics Data Center (accession numbers: HRA000208).
    
 
 
-## install
+### install
 ```bash
 library(devtools)
 install_github("Liulab/impel")
 ```
 
 
-## Quick start
+### Quick start
 
 #### meth_model 
 
