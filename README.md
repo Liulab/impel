@@ -1,16 +1,13 @@
 # impel
 Integrative Methylation model to Predict recurrence of Early Lung cancer. A model constructed by DNA methylation of enhancer region, a model constructed by RNA expression of target genes, and a model integrating above two models. These three models could be used to predict the recurrence of early lung cancer.
 
+
+
 #
 ## Data Availability
 
 The data analyzed in this study are available from the National Genomics Data Center (accession numbers: HRA000208).
    
-
-#
-## Contact Information
-Yulan Deng (kndeajs@163.com)
-
 
 
 # 
@@ -18,7 +15,6 @@ Yulan Deng (kndeajs@163.com)
 library(devtools)
 
 install_github("Liulab/impel")
-
 
 
 
