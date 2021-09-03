@@ -61,4 +61,3 @@ res =  integrative_model(methylation.matrix=methylation_matrix,methylation_model
 expression.matrix=expression.matrix,expression_model=expression_model,
 house.keeping.genes=house.keeping.genes)
 ```
-
