@@ -12,9 +12,10 @@ The data analyzed in this study are available from the National Genomics Data Ce
 
 # 
 ## install
+```bash
 library(devtools)
-
 install_github("Liulab/impel")
+```
 
 
 
