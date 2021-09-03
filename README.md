@@ -24,7 +24,7 @@ The DNA methylationn model constructed by enhancer region to predict the recurre
 ```bash
 data(methylation_matrix)
 data(methylation_model)
-res <- meth_model(methylation.matrix=methylation_matrix,methylation_model=methylation_model)
+res = meth_model(methylation.matrix=methylation_matrix,methylation_model=methylation_model)
 ```
 
 #### exp_model
@@ -34,7 +34,7 @@ The expression model constructed by enhacer target to predict the recurrence of 
 data(expression.matrix)
 data(expression_model)
 data(house.keeping.genes)
-res <-  exp_model(expression.matrix=expression.matrix,expression_model=expression_model,house.keeping.genes=house.keeping.genes)
+res =  exp_model(expression.matrix=expression.matrix,expression_model=expression_model,house.keeping.genes=house.keeping.genes)
 ```
 
 #### integrative_model
@@ -47,7 +47,7 @@ data(methylation_model)
 data(expression.matrix)
 data(expression_model)
 data(house.keeping.genes)
-res <-  integrative_model(methylation.matrix=methylation_matrix,methylation_model=methylation_model,
+res =  integrative_model(methylation.matrix=methylation_matrix,methylation_model=methylation_model,
 expression.matrix=expression.matrix,expression_model=expression_model,
 house.keeping.genes=house.keeping.genes)
 ```
